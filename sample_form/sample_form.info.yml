@@ -1,0 +1,6 @@
+name: 'Sample: form page'
+type: 'module'
+description: 'This is a sample custom module used for learning D8 development.'
+package: 'Custom modules'
+core: 8.x
+version: '8.x-1.x-dev'
