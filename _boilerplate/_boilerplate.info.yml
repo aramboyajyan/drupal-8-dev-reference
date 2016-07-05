@@ -1,4 +1,4 @@
-name: 'Sample: module anme'
+name: 'Sample: module name'
 type: 'module'
 description: 'This is a sample custom module used for learning D8 development.'
 package: 'Custom modules'

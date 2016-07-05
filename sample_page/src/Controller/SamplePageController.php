@@ -10,12 +10,9 @@ use Drupal\Core\Controller\ControllerBase;
 class SamplePageController extends ControllerBase {
 
   /**
-   * Prints a sample page.
-   *
-   * @return array
-   *   A render array for our sample page.
+   * Returns build array for our sample page.
    */
-  public function render() {
+  public function showPage() {
     $output = [];
 
     $output[] = array(

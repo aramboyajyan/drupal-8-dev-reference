@@ -7,7 +7,7 @@ use Drupal\Core\Controller\ControllerBase;
 /**
  * Controller for our sample page route.
  */
-class SamplePermissionsController extends ControllerBase {
+class SamplePermissionsPageController extends ControllerBase {
 
   /**
    * Prints the overview page.
