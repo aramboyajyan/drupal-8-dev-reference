@@ -1,0 +1,11 @@
+'sample permission 1':
+  title: 'First level permission'
+  description: 'Gives first level permission to the users.'
+
+'sample permission 2':
+  title: 'Second level permission'
+  description: 'Gives second level permission to the users.'
+
+'sample permission 3':
+  title: 'Third level permission'
+  description: 'Gives third level permission to the users.'
