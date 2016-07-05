@@ -1,0 +1,7 @@
+sample.page:
+  path: '/sample-page'
+  defaults:
+    _controller: '\Drupal\sample_page\Controller\SamplePageController::render'
+    _title: 'Sample Page Title'
+  requirements:
+    _permission: 'access administration pages'
