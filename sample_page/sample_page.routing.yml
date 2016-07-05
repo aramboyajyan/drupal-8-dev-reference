@@ -4,4 +4,4 @@ sample.page:
     _controller: '\Drupal\sample_page\Controller\SamplePageController::render'
     _title: 'Sample Page Title'
   requirements:
-    _permission: 'access administration pages'
+    _permission: 'access content'
