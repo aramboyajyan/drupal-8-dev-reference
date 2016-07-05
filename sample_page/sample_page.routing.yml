@@ -1,4 +1,4 @@
-sample.page:
+sample_page.page:
   path: '/sample-page'
   defaults:
     _controller: '\Drupal\sample_page\Controller\SamplePageController::render'
