@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Sample module showing how to integrate with system cron.
+ */
+
+/**
+ * Implements hook_cron().
+ */
+function sample_cron_cron() {
+  // Check if previous execution was completed.
+  $lock = \Drupal::lock();
+  if ($lock->acquire('sample_cron')) {
+    // Log a message. This is just to show that the example works.
+    \Drupal::logger('sample_cron')->notice('Custom cron implementation executed.');
+    // Release the lock, so the next time our code can run.
+    $lock->release('sample_cron');
+  }
+}
