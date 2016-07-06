@@ -1,0 +1,7 @@
+sample_theming.page:
+  path: '/sample-theming'
+  defaults:
+    _controller: '\Drupal\sample_theming\Controller\SampleThemingPageController::showPage'
+    _title: 'Sample Theming Page Title'
+  requirements:
+    _permission: 'access content'

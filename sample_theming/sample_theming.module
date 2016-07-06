@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Sample module showing how to have custom themed elements.
+ *
+ * Created by: Topsitemakers
+ * http://www.topsitemakers.com/
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function sample_theming_theme() {
+  return [
+    'sample' => [
+      'render element' => 'elements',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for sample templates.
+ */
+function template_preprocess_sample(&$variables) {
+  $variables['account'] = \Drupal::currentUser();
+}
