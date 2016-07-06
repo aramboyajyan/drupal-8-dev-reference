@@ -15,9 +15,9 @@ class SamplePageController extends ControllerBase {
   public function showPage() {
     $output = [];
 
-    $output[] = array(
+    $output[] = [
       '#markup' => $this->t('This is a sample page.'),
-    );
+    ];
 
     return $output;
   }

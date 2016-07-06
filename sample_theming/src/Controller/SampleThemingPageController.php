@@ -15,12 +15,12 @@ class SampleThemingPageController extends ControllerBase {
   public function showPage() {
     $output = [];
 
-    $output[] = array(
+    $output[] = [
       '#markup' => $this->t('This is a sample page.'),
-    );
-    $output[] = array(
+    ];
+    $output[] = [
       '#theme' => 'sample',
-    );
+    ];
 
     return $output;
   }
