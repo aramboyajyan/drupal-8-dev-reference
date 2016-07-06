@@ -16,7 +16,7 @@ class SamplePageController extends ControllerBase {
     $output = [];
 
     $output[] = array(
-      '#markup' => 'This is a sample page.',
+      '#markup' => $this->t('This is a sample page.'),
     );
 
     return $output;
