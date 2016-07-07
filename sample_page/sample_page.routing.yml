@@ -1,7 +1,0 @@
-sample_page.page:
-  path: '/sample-page'
-  defaults:
-    _controller: '\Drupal\sample_page\Controller\SamplePageController::showPage'
-    _title: 'Sample Page Title'
-  requirements:
-    _permission: 'access content'

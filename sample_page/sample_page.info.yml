@@ -1,6 +1,0 @@
-name: 'Sample: custom page'
-type: 'module'
-description: 'This is a sample custom module used for learning D8 development. It shows how to implement a custom page.'
-package: 'Custom modules'
-core: 8.x
-version: '1.0'

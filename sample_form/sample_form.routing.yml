@@ -1,7 +1,0 @@
-sample_form.form_page:
-  path: '/sample-form'
-  defaults:
-    _form:  '\Drupal\sample_form\Form\SampleForm'
-    _title: 'Sample Form Title'
-  requirements:
-    _permission: 'access content'

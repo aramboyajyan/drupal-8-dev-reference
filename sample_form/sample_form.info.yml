@@ -1,6 +1,0 @@
-name: 'Sample: form page'
-type: 'module'
-description: 'This is a sample custom module used for learning D8 development. It shows how to implement a simple page with a form.'
-package: 'Custom modules'
-core: 8.x
-version: '1.0'
