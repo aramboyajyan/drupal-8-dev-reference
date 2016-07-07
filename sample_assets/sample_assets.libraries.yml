@@ -1,0 +1,10 @@
+sample_assets.custom_css:
+  version: 1.0
+  css:
+    theme:
+      css/sample_assets.custom.css: {}
+
+sample_assets.custom_js:
+  version: 1.0
+  js:
+    js/sample_assets.custom.js: {}

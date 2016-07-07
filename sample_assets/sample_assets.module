@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Sample assets module.
+ *
+ * Created by: Topsitemakers
+ * http://www.topsitemakers.com/
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function sample_assets_page_attachments(array &$attachments) {
+  // Add our custom CSS.
+  $attachments['#attached']['library'][] = 'sample_assets/sample_assets.custom_css';
+  // Add our custom JS.
+  $attachments['#attached']['library'][] = 'sample_assets/sample_assets.custom_js';
+}
