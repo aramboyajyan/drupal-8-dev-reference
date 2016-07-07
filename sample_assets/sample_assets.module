@@ -16,4 +16,7 @@ function sample_assets_page_attachments(array &$attachments) {
   $attachments['#attached']['library'][] = 'sample_assets/sample_assets.custom_css';
   // Add our custom JS.
   $attachments['#attached']['library'][] = 'sample_assets/sample_assets.custom_js';
+  // Now add our asset bundle. This will automatically include a JS and CSS
+  // file.
+  $attachments['#attached']['library'][] = 'sample_assets/sample_assets.bundle';
 }

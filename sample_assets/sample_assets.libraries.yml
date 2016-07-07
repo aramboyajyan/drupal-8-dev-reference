@@ -8,3 +8,14 @@ sample_assets.custom_js:
   version: 1.0
   js:
     js/sample_assets.custom.js: {}
+
+sample_assets.bundle:
+  version: 1.0
+  css:
+    theme:
+      css/sample_assets.bundle.css: {}
+  js:
+    js/sample_assets.bundle.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
