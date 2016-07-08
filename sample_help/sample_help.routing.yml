@@ -1,0 +1,7 @@
+sample_help.page:
+  path: '/sample-help'
+  defaults:
+    _controller: '\Drupal\sample_help\Controller\SampleHelpPageController::showPage'
+    _title: 'Sample Help Page Title'
+  requirements:
+    _permission: 'access content'
