@@ -9,21 +9,21 @@
  * Implements hook_drush_command().
  */
 function sample_drush_drush_command() {
-  $items = array();
+  $items = [];
 
   // The key in the $items array is the name of the command.
-  $items['sample'] = array(
+  $items['sample'] = [
     'callback' => 'sample_drush_callback',
     'description' => dt('Sample Drush action executed through the sample custom module.'),
     // For older version of Drush (v6 and lower). In newer versions this is
     // deprecated.
     'bootstrap' => DRUSH_BOOTSTRAP_DRUSH,
-    'arguments' => array(
+    'arguments' => [
       'arg1' => dt('Optional. Sample argument 1.'),
       'arg2' => dt('Optional. Sample argument 2.'),
-    ),
-    'aliases' => array('smpl'),
-  );
+    ],
+    'aliases' => ['smpl'],
+  ];
 
   return $items;
 }
