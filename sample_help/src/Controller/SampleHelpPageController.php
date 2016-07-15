@@ -13,13 +13,9 @@ class SampleHelpPageController extends ControllerBase {
    * Returns build array for our sample page.
    */
   public function showPage() {
-    $output = [];
-
-    $output[] = [
+    return [
       '#markup' => $this->t('This is a sample help page.'),
     ];
-
-    return $output;
   }
 
 }
