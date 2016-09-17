@@ -9,3 +9,7 @@
 'sample permission 3':
   title: 'Third level permission'
   description: 'Gives third level permission to the users.'
+  restrict access: true
+
+permission_callbacks:
+  - \Drupal\sample_permissions\DynamicPermissions::getPermissions
